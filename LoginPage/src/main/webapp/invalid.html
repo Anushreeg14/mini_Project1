@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+           
+            height: 100vh;
+        }
+
+        form {
+            background-color: #3e3b3b;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #f4f4f4;
+            height: 300px;
+          
+        }
+
+        h1 {
+            text-align: center;
+            color: #d1d8d2;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 6px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            border: none;
+        }
+
+        input[type="submit"] {
+            background-color: #dde7dd;
+            color: #3e3b3b;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+
+        input[type="submit"]:hover {
+            background-color: #818481;
+            border-radius:4px;
+
+        }
+        a {
+            background-color: #dde7dd;
+            color: #3e3b3b;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+           text-decoration: none;
+            
+        }
+        a:hover
+        {
+            background-color: #818481;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="Valiadation">
+        <h1>InValid LOGIN!</h1>
+        <table>
+            <tr>
+                <td>Enter UserName:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Enter Password:</td>
+                <td><input type="password" name="pswd"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Login"></td>
+                <td> <a href="register.html">Register</a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

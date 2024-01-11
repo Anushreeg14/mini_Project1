@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+         
+            height: 100vh;
+        }
+  h1{
+    text-align: center;
+    color:  #ede6e2;
+  }
+  table{
+    width: 100%;
+  }
+  td {
+            padding: 10px;
+        }
+  form
+  {
+    background-color: #120101;
+    height: 420px;
+    width: 420px;
+    color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(23, 2, 2, 0.1);
+    border-radius: 6px;
+  
+  }
+  input[type="text"],
+        input[type="password"]
+      
+         {
+            width: 100%;
+            padding: 6px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            border: none;
+            
+        }
+        input[type="submit"]:hover
+        {
+        background-color: #3e3b3b;
+        border-radius: 4px;
+        }
+        input[type="submit"]
+        {
+       padding:8px;
+        border-radius: 6px;
+         border: none;
+         height: 30px;
+         width: 70px;
+        }
+</style>
+</head>
+<body>
+<form action="Register">
+	<table>
+		<h1>
+			Register
+		</h1>
+		<tr>
+			<td>Enter UserName:</td>
+			<td>
+				<input type="text" name="username">
+			</td>
+		</tr>
+		<tr>
+			<td>Enter Paasword:</td>
+			<td>
+				<input type="password" name="password">
+			</td>
+		</tr>
+		<tr>
+			<td>Enter Name:</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+		</tr>
+		<tr>
+			<td>Enter salary:</td>
+			<td>
+				<input type="number" name="salary">
+			</td>
+		</tr>
+		<tr>
+			<td>Enter Domain:</td>
+			<td>
+				<input type="text" name="domain">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="Register">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
